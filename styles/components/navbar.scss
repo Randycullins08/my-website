@@ -1,0 +1,26 @@
+.navbar-container {
+  width: 100%;
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #6ba3df;
+
+  .logo-wrapper {
+    margin-right: auto;
+
+    img {
+      margin: 0.5em;
+      width: 10em;
+      border-radius: 50%;
+    }
+  }
+
+  .nav-links {
+    a {
+      text-decoration: none;
+      margin: 1em;
+      color: inherit;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+@import "./components/navbar.scss";
+@import "./components/hero-section.scss";
+@import "./components/footer.scss";
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
