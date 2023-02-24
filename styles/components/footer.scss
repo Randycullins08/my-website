@@ -1,6 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
 .footer-container {
   height: 5em;
   display: grid;
   place-items: center;
-  background-color: #6ba3df;
+  background-color: #fff;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgba(0, 0, 0, 0.125);
+
+  h3 {
+    font-size: 1.3em;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: underline;
+  }
+
+  .social-links {
+    svg {
+      height: 2em;
+      margin: 1em;
+
+      &:hover {
+        background-color: #0074d9;
+        color: #fff;
+      }
+    }
+  }
 }

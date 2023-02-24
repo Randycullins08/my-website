@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+h3 {
+  font-size: 1.3em;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: underline;
+}
+
+.about-section-container {
+  width: 100%;
+
+  .bio {
+    text-align: center;
+    width: 100%;
+
+    .bio-content {
+      display: grid;
+      place-items: center;
+      p {
+        width: 50%;
+      }
+    }
+  }
+
+  .skills-wrapper {
+    display: grid;
+    place-items: center;
+    .icons-wrapper {
+      display: flex;
+      align-items: center;
+
+      .sqlalchemy {
+        height: 7em;
+      }
+
+      .nextjs {
+        height: 1em;
+      }
+
+      svg {
+        height: 3em;
+        margin: 1em;
+      }
+    }
+
+    .icon-names {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1em;
+
+      p {
+        margin: 1em;
+      }
+    }
+  }
+}
