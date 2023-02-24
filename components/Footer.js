@@ -6,7 +6,9 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
   return (
     <div className="footer-container">
-      <h3>Randy Cullins</h3>
+      <Link href="/">
+        <h3>Randy Cullins</h3>
+      </Link>
       <div className="social-links">
         <a
           target="_blank"

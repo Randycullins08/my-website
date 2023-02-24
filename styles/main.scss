@@ -3,6 +3,7 @@
 @import "./components/navbar.scss";
 @import "./components/hero-section.scss";
 @import "./components/about-section.scss";
+@import "./pages/projects.scss";
 @import "./components/footer.scss";
 
 body {
@@ -12,7 +13,16 @@ body {
   color: #2e2e2e;
 }
 
+h1 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: inherit;
+
+  &:hover {
+    // background-color: #0074d9;
+    color: #0074d9;
+  }
 }
