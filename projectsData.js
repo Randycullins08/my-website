@@ -60,7 +60,7 @@ export const projectData = [
     id: 3,
     img: "/images/react-widget.png",
     alt: "React Widget App",
-    link: "https://app.netlify.com/sites/rdc-react-widgets/overview",
+    link: "https://rdc-react-widgets.netlify.app/",
     title: <h3>React Widgets App</h3>,
     description: (
       <p>Widgets app built with fun coding challenges like fizzbuzz</p>
